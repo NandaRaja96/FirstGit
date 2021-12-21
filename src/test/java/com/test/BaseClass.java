@@ -53,6 +53,7 @@ public class BaseClass {
 	public static void getDriver() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
+		
 	}
 
 	public static void loadUrl(String Url) {
